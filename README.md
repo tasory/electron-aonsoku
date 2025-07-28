@@ -2,7 +2,6 @@
 # This repo is FUCKING SHIT DON'T USE IT
 
 > если вы рандомно нашли этот репозиторий, сразу скажу, оно вам не надо
-
 > if you accidentally found this repository, I will tell you right away: you don’t need it
 
 ## En
