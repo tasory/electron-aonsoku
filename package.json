@@ -1,0 +1,39 @@
+{
+	"name": "aonsoku-electron",
+	"version": "1.0.0",
+	"description": "Aonsoku wrapper to electron (useless shit)",
+	"main": "main.js",
+	"scripts": {
+    		"start": "electron .", 
+    		"test": "echo \"Error: no test specified\" && exit 1"
+  	},
+  	"keywords": [],
+  	"author": "tasory",
+  	"license": "ISC",
+  	"type": "commonjs",
+
+	"build": {
+    		"appId": "com.example.mylocalwebapp", 
+    		"productName": "Aonsoku-wrapper", 
+    		"copyright": "no copyright do what you want :3",
+    		"directories": {
+      			"output": "dist" 
+    		},
+    		"linux": {
+      			"target": [
+        			"pacman"
+      			],
+      		"category": "Utility", 
+      		"icon": "build/icon.png" 
+    		},
+    		"files": [
+      			"**/*", 
+      			"!node_modules/${arch}/**/*"
+    		]
+  	},
+
+	"devDependencies": {
+    		"electron": "^37.2.4",
+		"electron-builder": "^26.0.12"
+  	}
+}
