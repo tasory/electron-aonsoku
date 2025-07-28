@@ -37,7 +37,7 @@ to install it you need nodejs and npm
 ```
 npm run dist
 ```
-и там потом после билда вроде в ./build появится .tar.gz файлик который можно поставить через pacman -U
+и там потом после билда вроде в ./build появится .pacman файлик который можно поставить через pacman -U
 
 ## En
 To build a program for a specific platform (not Arch Linux), edit package.json and write in the build column (shown on the screen below), instead of pacman, write your platform (like AppImage, etc.)
@@ -48,4 +48,4 @@ build command:
 ```
 npm run dist
 ```
-and then after the build, a .tar.gz file will appear in ./build, which can be installed via pacman -U
+and then after the build, a .pacman file will appear in ./build, which can be installed via pacman -U
