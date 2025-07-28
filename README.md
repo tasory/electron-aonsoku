@@ -1,8 +1,9 @@
 
 # This repo is FUCKING SHIT DON'T USE IT
 
-если вы рандомно нашли этот репозиторий, сразу скажу, оно вам не надо
-if you accidentally found this repository, I will tell you right away: you don’t need it
+> если вы рандомно нашли этот репозиторий, сразу скажу, оно вам не надо
+
+> if you accidentally found this repository, I will tell you right away: you don’t need it
 
 ## En
 in short, this program packs the site 192.168.1.33:1005 into electron
@@ -14,6 +15,7 @@ well, like I need this so that aonsoku would be a separate application, but I'm 
 
 
 to install it you need nodejs and npm
+
 чтобы установить это нужны nodejs и npm
 
 # Building
