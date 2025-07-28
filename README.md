@@ -22,7 +22,7 @@ well, like I need this so that aonsoku would be a separate application, but I'm 
 ## En
 to install it you need nodejs and npm
 
-## RU
+## Ru
 чтобы установить это нужны nodejs и npm
 
 # Building
